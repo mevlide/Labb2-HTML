@@ -9,11 +9,9 @@ body {
     height: 700px;
     margin-top: 0;
   }
-  .container {
-    margin-bottom: auto;
-  }
-  nav {
+  .navbar {
     margin-left: 0;
+    background-color: darkgray;
   }
 
   nav .collapse ul {
@@ -23,15 +21,14 @@ body {
   nav .collapse ul li a {
     margin-right: 100px;
   }
-  a:hover {
+  nav ul li a:hover {
     font-size: 120%;
   }
-  .footer {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .footer > .footer2 {
-    width: 70%;
+  footer {
+    overflow: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: lightslategray;
   }
 }
