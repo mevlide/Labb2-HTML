@@ -3,4 +3,9 @@ body {
   padding: 0;
 }
 .div1 {
+  background-image: url(img/foto1.jpg);
+  height: 60%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
