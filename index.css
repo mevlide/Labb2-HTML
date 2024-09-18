@@ -9,9 +9,9 @@ body {
     height: 700px;
     margin-top: 0;
   }
-  .navbar {
+  nav {
     margin-left: 0;
-    background-color: darkgray;
+    background-color: lightgoldenrodyellow;
   }
 
   nav .collapse ul {
@@ -28,7 +28,28 @@ body {
     overflow: auto;
     width: 100%;
     padding: 20px;
+    background-color: linen;
+    height: 210px;
+  }
+  .footer {
     text-align: center;
-    background-color: lightslategray;
+    margin-top: 60px;
+  }
+
+  .column-50 {
+    float: left;
+    padding: 20px;
+  }
+
+  .column-50 {
+    width: 50%;
+  }
+  .adress {
+    margin-top: 100px;
+    padding-left: 100px;
+  }
+  .tid {
+    margin-top: 50px;
+    padding-left: 100px;
   }
 }
