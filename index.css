@@ -69,4 +69,33 @@ body {
     padding-top: 60px;
     padding-left: 40px;
   }
+
+  /*menu.html*/
+  .meny .content {
+    width: 90%;
+    margin-left: 65px;
+  }
+  .meny .content .row .column-50 {
+    border: 1px solid brown;
+    text-align: center;
+  }
+  .meny .content .row .column-50 h3 {
+    color: brown;
+    font-family: monospace;
+    font-style: oblique;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .meny .content .row .column-50 .list {
+    display: flex;
+  }
+
+  .meny .content .row .column-50 ul {
+    list-style-type: none;
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  .meny .content .row .column-50 ul li {
+  }
 }
