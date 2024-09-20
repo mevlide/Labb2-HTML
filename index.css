@@ -3,97 +3,95 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-@media screen and (min-width: 760px) {
-  /*Navbar*/
-  nav {
-    margin-left: 0;
-    background-color: lightgoldenrodyellow;
-  }
+/*Navbar*/
+nav {
+  margin-left: 0;
+  background-color: lightgoldenrodyellow;
+}
 
-  nav .collapse ul {
-    width: 100%;
-    padding: 5px;
-  }
-  nav .collapse ul li a {
-    margin-right: 100px;
-  }
-  nav ul li a:hover {
-    font-size: 120%;
-  }
+nav .collapse ul {
+  width: 100%;
+  padding: 5px;
+}
+nav .collapse ul li a {
+  margin-right: 100px;
+}
+nav ul li a:hover {
+  font-size: 120%;
+}
 
-  /*Footer*/
-  footer {
-    overflow: auto;
-    width: 100%;
-    padding: 20px;
-    background-color: linen;
-    height: 210px;
-  }
-  .icon {
-    padding-bottom: 20px;
-  }
-  .footer {
-    text-align: center;
-    margin-top: 30px;
-  }
+/*Footer*/
+footer {
+  overflow: auto;
+  width: 100%;
+  padding: 20px;
+  background-color: linen;
+  height: 210px;
+}
+.icon {
+  padding-bottom: 20px;
+}
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
 
-  .column-50 {
-    float: left;
-    padding: 20px;
-  }
+.column-50 {
+  float: left;
+  padding: 20px;
+}
 
-  .column-50 {
-    width: 50%;
-  }
+.column-50 {
+  width: 50%;
+}
 
-  /*index.html*/
-  img {
-    width: 100%;
-    height: 700px;
-    margin-top: 0;
-  }
+/*index.html*/
+img {
+  width: 100%;
+  height: 700px;
+  margin-top: 0;
+}
 
-  /*contect.html*/
-  .adress {
-    margin-top: 100px;
-    padding-left: 100px;
-  }
-  .tid {
-    margin-top: 50px;
-    padding-left: 100px;
-  }
+/*contect.html*/
+.adress {
+  margin-top: 100px;
+  padding-left: 100px;
+}
+.tid {
+  margin-top: 50px;
+  padding-left: 100px;
+}
 
-  /*about.html*/
-  .om {
-    text-align: center;
-    padding-top: 60px;
-    padding-left: 40px;
-  }
+/*about.html*/
+.om {
+  text-align: center;
+  padding-top: 60px;
+  padding-left: 40px;
+}
 
-  /*menu.html*/
-  .meny .content {
-    width: 90%;
-    margin-left: 65px;
-  }
-  .meny .content .row .column-50 {
-    border: 1px solid brown;
-    text-align: center;
-  }
-  .meny .content .row .column-50 h3 {
-    color: brown;
-    font-family: monospace;
-    font-style: oblique;
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
+/*menu.html*/
+.meny .content {
+  width: 90%;
+  margin-left: 65px;
+}
+.meny .content .row .column-50 {
+  border: 1px solid brown;
+  text-align: center;
+}
+.meny .content .row .column-50 h3 {
+  color: brown;
+  font-family: monospace;
+  font-style: oblique;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
-  .meny .content .row .column-50 .list {
-    display: flex;
-  }
+.meny .content .row .column-50 .list {
+  display: flex;
+}
 
-  .meny .content .row .column-50 ul {
-    list-style-type: none;
-    padding-left: 100px;
-    padding-top: 20px;
-  }
+.meny .content .row .column-50 ul {
+  list-style-type: none;
+  padding-left: 100px;
+  padding-top: 20px;
 }
