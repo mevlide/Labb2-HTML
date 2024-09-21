@@ -7,6 +7,7 @@ body {
 nav {
   margin-left: 0;
   background-color: lightgoldenrodyellow;
+  display: flex;
 }
 
 nav .collapse ul {
@@ -44,6 +45,12 @@ footer {
 .column-50 {
   width: 50%;
 }
+.column-40 {
+  width: 40%;
+}
+.column-60 {
+  width: 60%;
+}
 
 /*index.html*/
 img {
@@ -68,30 +75,88 @@ img {
   padding-top: 60px;
   padding-left: 40px;
 }
+.about .column-50 img {
+  height: 500px;
+  width: 600px;
+  padding-left: 100px;
+}
 
 /*menu.html*/
-.meny .content {
-  width: 90%;
-  margin-left: 65px;
+.meny {
+  margin-left: 50px;
+  margin-right: 50px;
 }
-.meny .content .row .column-50 {
-  border: 1px solid brown;
-  text-align: center;
-}
-.meny .content .row .column-50 h3 {
-  color: brown;
-  font-family: monospace;
-  font-style: oblique;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.meny .content .row .column-50 .list {
+.meny .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
 }
-
-.meny .content .row .column-50 ul {
+.meny .row .column-40 img {
+  height: 400px;
+}
+.meny .row .column-60 {
+  text-align: center;
+  padding-top: 100px;
+}
+.meny .row .column-60 h2 {
+  color: brown;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.meny .row .column-60 .list ul {
   list-style-type: none;
-  padding-left: 100px;
-  padding-top: 20px;
+}
+.meny .row .column-60 .list ul li {
+  font-weight: bold;
+  font-family: serif;
+}
+
+@media screen and (max-width: 980px) {
+  .meny .row .column-60 {
+    width: 60%;
+  }
+  .meny .row .column-40 {
+    width: 40%;
+  }
+  .about .column-50 {
+    width: 50%;
+  }
+  .about .column-50 img {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .content .column-50 {
+    width: 50%;
+  }
+  .content .column-50 iframe {
+    padding-right: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .meny .row .column-60 {
+    width: 100%;
+  }
+  .meny .row .column-40 {
+    width: 100%;
+  }
+  .about .column-50 {
+    width: 100%;
+  }
+  .about .column-50 img {
+    width: 100%;
+    margin-right: 40px;
+    padding-left: 10px;
+  }
+  .content .column-50 {
+    width: 100%;
+  }
+  .content .column-50 iframe {
+    padding-right: 20px;
+    width: 100%;
+  }
 }
