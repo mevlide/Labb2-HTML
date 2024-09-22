@@ -3,22 +3,30 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
 /*Navbar*/
-nav {
-  margin-left: 0;
-  background-color: lightgoldenrodyellow;
+#navbarNav {
+  padding: 0 30px;
+  background-color: linen;
   display: flex;
+}
+.navbar-expand-lg {
+  padding: 0;
 }
 
 nav .collapse ul {
   width: 100%;
   padding: 5px;
 }
-nav .collapse ul li a {
-  margin-right: 100px;
+nav .collapse ul li {
+  width: 150px;
 }
 nav ul li a:hover {
   font-size: 120%;
+  text-decoration: underline;
 }
 
 /*Footer*/
@@ -36,7 +44,6 @@ footer {
   text-align: center;
   margin-top: 30px;
 }
-
 .column-50 {
   float: left;
   padding: 20px;
@@ -55,8 +62,7 @@ footer {
 /*index.html*/
 img {
   width: 100%;
-  height: 700px;
-  margin-top: 0;
+  height: auto;
 }
 
 /*contect.html*/
