@@ -52,12 +52,6 @@ footer {
 .column-50 {
   width: 50%;
 }
-.column-40 {
-  width: 40%;
-}
-.column-60 {
-  width: 60%;
-}
 
 /*index.html*/
 img {
@@ -88,85 +82,6 @@ img {
 }
 
 /*menu.html*/
-.meny {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.meny .row {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
-}
-.meny .row .column-40 img {
-  height: 400px;
-}
-.meny .row .column-60 {
-  text-align: center;
-  padding-top: 100px;
-}
-.meny .row .column-60 h2 {
-  color: brown;
-  font-family: sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  padding-bottom: 30px;
-}
-.meny .row .column-60 .list ul {
-  list-style-type: none;
-}
-.meny .row .column-60 .list ul li {
-  font-weight: bold;
-  font-family: serif;
-}
-
-@media screen and (max-width: 980px) {
-  .meny .row .column-60 {
-    width: 60%;
-  }
-  .meny .row .column-40 {
-    width: 40%;
-  }
-  .about .column-50 {
-    width: 50%;
-  }
-  .about .column-50 img {
-    width: 100%;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-  .content .column-50 {
-    width: 50%;
-  }
-  .content .column-50 iframe {
-    padding-right: 20px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .meny .row .column-60 {
-    width: 100%;
-  }
-  .meny .row .column-40 {
-    width: 100%;
-  }
-  .about .column-50 {
-    width: 100%;
-  }
-  .about .column-50 img {
-    width: 100%;
-    margin-right: 40px;
-    padding-left: 10px;
-  }
-  .content .column-50 {
-    width: 100%;
-  }
-  .content .column-50 iframe {
-    padding-right: 20px;
-    width: 100%;
-  }
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -186,6 +101,42 @@ img {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media screen and (max-width: 980px) {
+  .about .column-50 {
+    width: 50%;
+  }
+  .about .column-50 img {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .content .column-50 {
+    width: 50%;
+  }
+  .content .column-50 iframe {
+    padding-right: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about .column-50 {
+    width: 100%;
+  }
+  .about .column-50 img {
+    width: 100%;
+    margin-right: 40px;
+    padding-left: 10px;
+  }
+  .content .column-50 {
+    width: 100%;
+  }
+  .content .column-50 iframe {
+    padding-right: 20px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 600px) {
